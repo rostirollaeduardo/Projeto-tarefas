@@ -5,7 +5,7 @@ const server = express();
 server.use(express.json());
 
 /**
- * Utilizamos a variável `numberOfRequests` como
+ * A variável `numberOfRequests` está como
  * `let` porque vai sofrer mutação. A variável
  * `projects` pode ser `const` porque um `array`
  * pode receber adições ou exclusões mesmo sendo
